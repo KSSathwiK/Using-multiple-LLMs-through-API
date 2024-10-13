@@ -1,4 +1,4 @@
-## Streamlit Frontend with Multiple LLM Integration via Ollama APIs
+## Streamlit Frontend with Multiple LLM Integration via Ollama, FAST API
 
 ## Project Overview
 
@@ -12,8 +12,9 @@ This project provides a **Streamlit-based front-end UI** integrated with two **o
 - **Langchain**: Used for handling chains of components and facilitating interactions with the LLMs.
 
 ## Pull models into Ollama through command prompt, After downloading
+```bash
 ollama run <model name>
-
+```
 ## Running the App
 
 1. Create and activate a virtual environment:
